@@ -1,0 +1,29 @@
+.contact-info {
+   
+    &__wrapper {
+        margin-left: 70px;
+        line-height: 15px;
+    }
+    
+    &__name {
+        font-size: 17px;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+    
+    &__item {
+        font-size: 20px;
+        font-weight: 300;
+        margin-bottom: 20px;
+
+    }
+
+    &__link {
+        text-decoration: none;
+        color: black;
+    }
+
+    &__link--email {
+        text-decoration: underline;
+    }
+}

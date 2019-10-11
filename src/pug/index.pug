@@ -1,5 +1,6 @@
 include ../blocks/contact/_contact.pug
 include ../blocks/contact-form/_contact-form.pug
+include ../blocks/contact-info/_contact-info.pug
 
 <!DOCTYPE html>
 html(lang="en")
@@ -12,3 +13,6 @@ html(lang="en")
         link(rel="stylesheet", href="./css/style.css")
     body
         +contact
+
+    script(src="https://code.jquery.com/jquery-3.4.1.min.js")
+    script(src="./plugins/jquery.mask.min.js")
