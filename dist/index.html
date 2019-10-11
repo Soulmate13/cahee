@@ -8,17 +8,28 @@
     <link rel="stylesheet" href="./css/style.css"/>
   </head>
   <body>
-    <div class="container"> 
-      <div class="contact">
-        <div class="contact__main">
-          <div class="container">
-            <div class="row"> 
-              <div class="col-12">
-                <div class="contact__top">
-                  <h1 class="contact__title">Contact</h1>
-                  <p class="contact__subtitle">For new projects, ideas, business or anything you'd like to discuss, contact with me!</p>
-                </div>
+    <div class="contact">
+      <div class="contact__main">
+        <div class="container">
+          <div class="row"> 
+            <div class="col-12">
+              <div class="contact__top">
+                <h1 class="contact__title">Contact</h1>
+                <p class="contact__subtitle">For new projects, ideas, business or anything you'd like to discuss, contact with me!</p>
               </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-6">
+              <form class="contact-form" action="">
+                <div class="contact-form__wrapper">
+                  <input class="contact-form__input" id="name" type="text" name="your name" placeholder="Your name..." required="required"/>
+                  <input class="contact-form__input" id="email" type="email" name="your email" placeholder="Your email..." required="required"/>
+                  <input class="contact-form__input" id="phone" type="text" name="your phone" placeholder="Your phone number..." data-mask="(000) 000-0000" minlength="8" required="required"/>
+                  <textarea class="contact-form__input" id="message" type="text" name="your message" placeholder="Your message..." cols="30" rows="12" required="required"></textarea>
+                  <input class="contact-form__submit" type="submit" value="Contact me"/>
+                </div>
+              </form>
             </div>
           </div>
         </div>
