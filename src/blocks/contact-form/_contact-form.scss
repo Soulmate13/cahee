@@ -1,7 +1,6 @@
 .contact-form {
 
     &__wrapper {
-        padding-right: 70px;
         display: flex;
         flex-direction: column;
         &:last-child {
@@ -14,12 +13,16 @@
         background-color: #00c4c4;
         border: none;
         margin-bottom: 16px;
-        padding: 16px 20px;
+        padding: 16px;
         opacity: 0.5;
         color: white;
         font-size: 15px;
         font-weight: 300;
         font-family: 'Raleway', sans-serif;
+
+        // @media screen and (max-width: 575px) {
+        //     padding: 8px;
+        // }
 
         &:focus {
             opacity: 1;
