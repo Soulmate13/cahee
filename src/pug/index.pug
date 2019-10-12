@@ -2,6 +2,7 @@ include ../blocks/contact/_contact.pug
 include ../blocks/contact-form/_contact-form.pug
 include ../blocks/contact-info/_contact-info.pug
 include ../blocks/footer/_footer.pug
+include ../blocks/about/_about.pug
 
 <!DOCTYPE html>
 html(lang="en")
@@ -13,6 +14,7 @@ html(lang="en")
         title Document
         link(rel="stylesheet", href="./css/style.css")
     body
+        +about
         +contact
         +footer
 
