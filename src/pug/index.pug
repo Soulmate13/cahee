@@ -3,6 +3,9 @@ include ../blocks/contact-form/_contact-form.pug
 include ../blocks/contact-info/_contact-info.pug
 include ../blocks/footer/_footer.pug
 include ../blocks/about/_about.pug
+include ../blocks/blog/_blog.pug
+include ../blocks/panel/_panel.pug
+include ../blocks/btn/_btn.pug
 
 <!DOCTYPE html>
 html(lang="en")
@@ -15,6 +18,7 @@ html(lang="en")
         link(rel="stylesheet", href="./css/style.css")
     body
         +about
+        +blog
         +contact
         +footer
 

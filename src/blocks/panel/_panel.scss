@@ -1,0 +1,78 @@
+.panel {
+    
+    position: relative;
+
+    &__wrapper {
+        margin-bottom: 245px;
+        pointer-events: none;
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.81) 0%, rgba(255, 255, 255, 0.81) 100%);
+        position: relative;
+    
+    }
+    
+    &__link {
+        text-decoration: none;
+        pointer-events: all;
+    }
+    
+    &__img {
+        position: absolute;
+        // max-width: 370px;
+        // width: 100%;
+    }
+    
+    &__text {
+        position: relative;
+        color: white;
+    
+    }
+    
+    &__date {
+        width: 60px;
+        height: 60px;
+        opacity: 0.5;
+        background-color: #262626;
+        border-radius: 5px;
+        display: block;
+        text-align: center;
+        position: relative;
+        top: 30px;
+        left: 30px;
+    }
+    
+    &__day {
+        font-size: 32px;
+        font-weight: 700;
+    }
+    
+    &__month {
+        font-size: 21px;
+        font-weight: 800;
+        display: block;
+    }
+    
+    &__heading {
+        font-size: 20px;
+        font-weight: 700;
+        position: relative;
+        left: 20px;
+        top: 120px;
+        padding-right: 20px;
+    }
+    
+    &__author {
+        font-size: 13px;
+        font-weight: 300;
+        position: relative;
+        left: 20px;
+        top: 150px;
+    }
+
+    &__button-wrapper {
+        padding-bottom: 140px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+

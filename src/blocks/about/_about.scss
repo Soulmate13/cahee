@@ -7,7 +7,8 @@
     &__wrapper {
         background-image: url(/dist/img/about_cup.png);
         background-repeat: no-repeat;
-        background-position: 15 15;
+        background-position: left;
+        background-attachment: fixed;
         padding-top: 170px;
         padding-right: 60px;
         padding-bottom: 235px;

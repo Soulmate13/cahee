@@ -1,0 +1,27 @@
+.blog {
+    background-color: #b07cf7;
+    background-image: url(/dist/img/blog_background__full.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    color: white;
+
+    &__header {
+        padding-top: 89px;
+    }
+
+    &__title {
+        font-size: 90px;
+        font-weight: 700;
+        margin-bottom: 35px;
+    }
+    
+    &__paragraph {
+        font-size: 17px;
+        font-weight: 300;
+        max-width: 570px;
+        margin-bottom: 46px;
+        line-height: 23px;
+        text-align: center;
+    }
+
+}
