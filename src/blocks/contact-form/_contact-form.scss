@@ -6,6 +6,17 @@
         &:last-child {
             margin-bottom: 41px;
         }
+
+        @media screen and (min-width:1201px) {
+            padding-right: 70px;
+            margin-left: -31px;
+            
+        }
+
+        @media screen and (max-width:575px) {
+            padding: 10px 10px;
+            
+        }
     }
 
     &__input {
@@ -20,9 +31,11 @@
         font-weight: 300;
         font-family: 'Raleway', sans-serif;
 
-        // @media screen and (max-width: 575px) {
-        //     padding: 8px;
-        // }
+        @media screen and (max-width:575px) {
+            padding: 10px;
+            
+        }
+
 
         &:focus {
             opacity: 1;
