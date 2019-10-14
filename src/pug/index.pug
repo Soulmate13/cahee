@@ -6,6 +6,9 @@ include ../blocks/about/_about.pug
 include ../blocks/blog/_blog.pug
 include ../blocks/panel/_panel.pug
 include ../blocks/btn/_btn.pug
+include ../pug/icons.svg
+include ../blocks/home/_home.pug
+include ../blocks/nav/_nav.pug
 
 <!DOCTYPE html>
 html(lang="en")
@@ -17,8 +20,9 @@ html(lang="en")
         title Document
         link(rel="stylesheet", href="./css/style.css")
     body
-        +about
-        +blog
+        //- +home
+        //- +about
+        //- +blog
         +contact
         +footer
 

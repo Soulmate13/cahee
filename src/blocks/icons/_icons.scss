@@ -1,0 +1,13 @@
+.icons { 
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+    &--footer {
+        width: 64px;
+        height: 23px;
+        color: #b9b9b9;
+    }
+} 
