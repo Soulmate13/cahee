@@ -9,5 +9,20 @@
         width: 64px;
         height: 23px;
         color: #b9b9b9;
+
+        &:hover {
+            color: #f12b55;
+        }
+    }
+
+    &--nav {
+        color: #262626;
+        height: 52px;
+        width: 126px;
+
+
+        &:hover {
+            color: #ff6033;
+        }
     }
 } 

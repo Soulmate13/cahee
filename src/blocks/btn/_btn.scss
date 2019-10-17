@@ -14,5 +14,18 @@
             background-color: white;
             color: #f72b3b;
         }
+    
+    }
+        &--home {
+            background-color: #ff6033;
+            padding: 16px 26px;
+    
+            &:hover {
+                background-color: white;
+                color: #ff6033;
+
+    }
+    
+
     }
 }
