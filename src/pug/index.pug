@@ -9,6 +9,7 @@ include ../blocks/btn/_btn.pug
 include ../pug/icons.svg
 include ../blocks/home/_home.pug
 include ../blocks/nav/_nav.pug
+include ../blocks/subscribe/_subscribe.pug
 
 <!DOCTYPE html>
 html(lang="en")
@@ -21,8 +22,9 @@ html(lang="en")
         link(rel="stylesheet", href="./css/style.css")
     body
         +home
-        //- +about
+        +about
         //- +blog
+        +subscribe
         +contact
         +footer
 

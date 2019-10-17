@@ -1,0 +1,70 @@
+.subscribe {
+
+    // background-image: url(/dist/img/subscribe_background_full.png);
+    background-image: url(/dist/img/subscribe_background.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    
+    &__wrapper {
+        padding-top: 140px;
+        padding-bottom: 164px;
+    }
+
+    &__title {
+        color: #262626;
+        font-size: 40px;
+        font-weight: 700;
+        margin-bottom: 26px;
+        margin-left: -1px;
+    }
+
+    &__subtitle {
+        color: #262626;
+        font-size: 17px;
+        font-weight: 300;
+        margin-bottom: 35px;
+        margin-left: -2px;
+        line-height: 19px;
+    }
+
+    &__input {
+        width: 65.5%;
+        border: 1px solid #262626;
+        font-family: "Myriad Pro";
+        font-size: 15px;
+        font-weight: 400;
+        padding: 18px 14px;
+        margin-right: 27px;
+
+        &:hover {
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+        }
+
+        &:focus {
+            border-left: 5px solid #96b92c;
+            padding-left: 10px;
+        }
+    }
+
+    &__btn {
+        padding: 16px 30px;
+    }
+
+    ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+        color: rgba($color: #262626, $alpha: 0.5);
+        font-family: "Myriad Pro";
+      }
+      ::-moz-placeholder { /* Firefox 19+ */
+        color: rgba($color: #262626, $alpha: 0.5);
+        font-family: "Myriad Pro";
+      }
+      :-ms-input-placeholder { /* IE 10+ */
+        color: rgba($color: #262626, $alpha: 0.5);
+        font-family: "Myriad Pro";
+      }
+      :-moz-placeholder { /* Firefox 18- */
+        color: rgba($color: #262626, $alpha: 0.5);
+        font-family: "Myriad Pro";
+      }
+
+}

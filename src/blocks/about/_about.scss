@@ -1,19 +1,44 @@
 .about {
     background-color: #00b5b5; 
-    background-image: url(/dist/img/about_background.png);
-    background-position: top;
+    // background-image: url(/dist/img/about_background.png);
+    background-image: url(/dist/img/about_cup1.png);
+    background-position: left;
     background-repeat: no-repeat;
 
+    @media screen and (max-width: 1199px) { 
+    background-image: url(/dist/img/about_cup2.png);
+    background-position: 12% 50%;
+
+}
+        @media screen and (max-width: 991px) {
+        background-position: bottom;
+         }
+
+
     &__wrapper {
-        background-image: url(/dist/img/about_cup.png);
-        background-repeat: no-repeat;
-        background-position: left;
-        background-attachment: fixed;
         padding-top: 170px;
         padding-right: 60px;
         padding-bottom: 235px;
 
+        @media screen and (max-width: 991px) {
+            padding-top: 40px;
+            padding-bottom: 301px;
+        }
+
+        @media screen and (max-width: 991px) {
+                padding-right: 0px;
+            }
+        
+
+
     }
+
+    &__content {
+        @media screen and (max-width: 991px) {
+            text-align: center;
+        }
+    }
+
     &__title {
         color: white;
         font-size: 90px;

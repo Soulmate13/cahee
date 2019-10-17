@@ -1,7 +1,7 @@
 .home {
-        background-image: url(/dist/img/home_background_full.png);
+        // background-image: url(/dist/img/home_background_full.png);
         background-position: top;
-        // background-image: url(/dist/img/home_background.png);
+        background-image: url(/dist/img/home_background.png);
         background-repeat: no-repeat;
         background-color: #f9f8fb;
         background-size: fill;
@@ -18,7 +18,7 @@
         
         &__info {
             &-top {
-                padding-bottom: 308px;
+                padding-bottom: 312px;
 
                 @media screen and (max-width: 991px) {
                 padding-bottom: 200px;

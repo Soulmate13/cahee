@@ -28,4 +28,17 @@
     
 
     }
+
+    &--subscribe {
+            background-color: #96b92c;
+            padding: 16px 26px;
+            border: none;
+            text-transform: uppercase;
+
+            &:hover {
+                background-color: white;
+                color: #96b92c;
+
+    }
+    }
 }
