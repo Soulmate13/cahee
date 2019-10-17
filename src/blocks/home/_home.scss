@@ -1,10 +1,16 @@
 .home {
-        // background-image: url(/dist/img/home_background_full.png);
+        background-image: url(/dist/img/home_background_full.png);
         background-position: top;
-        background-image: url(/dist/img/home_background.png);
+        // background-position: 81% 50%;
+        // background-image: url(/dist/img/header@x1.png);
         background-repeat: no-repeat;
         background-color: #f9f8fb;
-        background-size: fill;
+
+        // @media screen and (max-width: 1199px) {
+
+        // background-image: url(/dist/img/header@x1.png);
+        // }
+
 
 
         &__wrapper {

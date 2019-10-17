@@ -1,18 +1,17 @@
 .about {
     background-color: #00b5b5; 
     // background-image: url(/dist/img/about_background.png);
-    background-image: url(/dist/img/about_cup1.png);
-    background-position: left;
+    background-image: url(/dist/img/about@x1.png);
+    background-position: 11% 50%;
     background-repeat: no-repeat;
 
     @media screen and (max-width: 1199px) { 
-    background-image: url(/dist/img/about_cup2.png);
-    background-position: 12% 50%;
+    background-position: 0% 50%;
 
 }
-        @media screen and (max-width: 991px) {
-        background-position: bottom;
-         }
+        // @media screen and (max-width: 991px) {
+        // background-position: bottom;
+        //  }
 
 
     &__wrapper {
