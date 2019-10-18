@@ -1,13 +1,52 @@
 .subscribe {
 
     // background-image: url(/dist/img/subscribe_background_full.png);
+    // background-position: top;
     background-image: url(/dist/img/subscribeX1.png);
-    background-position: 98% 50%;
+    background-position: 92% 50%;
     background-repeat: no-repeat;
+
+    @media screen and (max-width: 1199px) {
+        background-size: 50%;
+        background-position: 96% 50%;
+    }
+
+
+    @media screen and (max-width: 991px) {
+        background-size: 50%;
+        background-position: 98% 50%;
+    }
+
+    @media screen and (max-width: 765px) {
+        background-size: 50%;
+        background-position: 50% 105%;
+    }
+
+    @media screen and (max-width: 575px) {
+        background-size: 50%;
+        background-position: 50% 98%;
+    
+    }
     
     &__wrapper {
         padding-top: 140px;
         padding-bottom: 164px;
+
+            @media screen and (max-width: 765px) {
+            padding-top: 70px;
+            padding-bottom: 198px;
+            }
+
+            @media screen and (max-width: 609px) {
+            padding-bottom: 170px;
+    
+                // костыль из-за правого марджина
+            }
+
+            @media screen and (max-width: 575px) {
+            padding-top: 70px;
+            padding-bottom: 150px;
+            }
     }
 
     &__title {
@@ -16,6 +55,10 @@
         font-weight: 700;
         margin-bottom: 26px;
         margin-left: -1px;
+
+        @media screen and (max-width:575px) {
+            padding: 0 15px;
+        }
     }
 
     &__subtitle {
@@ -25,6 +68,10 @@
         margin-bottom: 35px;
         margin-left: -2px;
         line-height: 19px;
+
+        @media screen and (max-width:575px) {
+            padding: 0 15px;
+        }
     }
 
     &__input {
@@ -36,6 +83,12 @@
         padding: 18px 14px;
         margin-right: 27px;
 
+        @media screen and (max-width: 575px) {
+            padding: 10px;
+            margin-left: 10px;
+        }
+
+
         &:hover {
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
         }
@@ -44,10 +97,23 @@
             border-left: 5px solid #96b92c;
             padding-left: 10px;
         }
+
+        @media screen and (max-width: 609px) {
+            margin-bottom: 20px;
+
+            // костыль из-за правого марджина
+        }
+
     }
 
     &__btn {
         padding: 16px 30px;
+
+        @media screen and (max-width: 575px) {
+            margin-left: 10px;
+        }
+
+
     }
 
     ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
