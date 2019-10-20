@@ -1,16 +1,61 @@
 .services {
-
+    // background-image: url(/dist/img/services_background_full.png);
+    background-position: 82% 60%;
+    background-repeat: no-repeat;
+    background-image: url(/dist/img/services@x1.png);
     background-color: #70bfff;
 
+    @media screen and (max-width: 1199px) {
+        background-size: 41%;
+        background-position: 88% 50%;
+    }
+
+    @media screen and (max-width: 991px) {
+        background-size: 41%;
+        background-position: 91% 50%;
+    }
+
+    @media screen and (max-width: 765px) {
+        background-size: 41%;
+        background-position: 54% 93%;
+    }
+
+    @media screen and (max-width: 575px) {
+        background-size: 41%;
+        background-position: 50% 93%;
+    }
 
     &__wrapper {
         padding-top: 179px;
         padding-bottom: 130px;
+
+        @media screen and (max-width: 767px) {
+            padding-top: 50px;
+            padding-bottom: 320px;
+        }
+
+        @media screen and (max-width: 575px) {
+            padding-top: 50px;
+            padding-bottom: 200px;
+        }
+        
     }
 
     &__heading {
         color: #fff;
         font-size: 90px;
         font-weight: 700;
+
+        @media screen and (max-width: 767px) {
+            font-size: 60px;
+            padding-bottom: 50px;
+            text-align: center;
+        }
+        
+
+        &-wrapper {
+            margin-bottom: 107px;
+            margin-left: 26px
+        }
     }
 }
