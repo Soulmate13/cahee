@@ -34,6 +34,7 @@
             padding: 16px 26px;
             border: none;
             text-transform: uppercase;
+            font-family: Raleway;
 
             &:hover {
                 background-color: white;
@@ -41,4 +42,15 @@
 
     }
     }
+
+    &--gallery {
+        background-color: #5585a2;
+        padding: 17px 42px;
+    }
+
+    &:hover {
+        background-color: white;
+        color: #5585a2;
+
+}
 }
