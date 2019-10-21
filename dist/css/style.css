@@ -2648,7 +2648,7 @@ body {
   max-width: 1200px; }
 
 .contact__main {
-  background-image: url(/dist/img/contact@x1.jpg);
+  background-image: url(../dist/img/contact@x1.jpg);
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
@@ -2818,7 +2818,7 @@ body {
 
 .about {
   background-color: #00b5b5;
-  background-image: url(/dist/img/about@x1.png);
+  background-image: url(../dist/img/about@x1.png);
   background-position: 11% 50%;
   background-repeat: no-repeat; }
   @media screen and (max-width: 1199px) {
@@ -2875,7 +2875,7 @@ body {
 
 .blog {
   background-color: #b07cf7;
-  background-image: url(/dist/img/blog_background__full.png);
+  background-image: url(../dist/img/blog_background__full.png);
   background-position: top;
   background-repeat: no-repeat;
   color: white; }
@@ -3002,7 +3002,7 @@ body {
 
 .home {
   background-position: 81% 50%;
-  background-image: url(/dist/img/header@x1.png);
+  background-image: url(../dist/img/header@x1.png);
   background-repeat: no-repeat;
   background-color: #f9f8fb; }
   @media screen and (max-width: 1199px) {
@@ -3146,7 +3146,7 @@ body {
   color: #262626; }
 
 .subscribe {
-  background-image: url(/dist/img/subscribeX1.png);
+  background-image: url(../dist/img/subscribeX1.png);
   background-position: 92% 50%;
   background-repeat: no-repeat; }
   @media screen and (max-width: 1199px) {
@@ -3243,7 +3243,7 @@ body {
 .services {
   background-position: 82% 60%;
   background-repeat: no-repeat;
-  background-image: url(/dist/img/services@x1.png);
+  background-image: url(../dist/img/services@x1.png);
   background-color: #70bfff; }
   @media screen and (max-width: 1199px) {
     .services {
