@@ -4335,14 +4335,6 @@ body {
   @media screen and (max-width: 765px) {
     .nav__wrapper {
       margin-bottom: 100px; } }
-<<<<<<< HEAD
-  .nav__wrapper__header {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: flex; }
-=======
 
 .nav__header {
   display: -webkit-box;
@@ -4350,7 +4342,6 @@ body {
   display: -moz-box;
   display: -ms-flexbox;
   display: flex; }
->>>>>>> c4b4d47646148e02005f983d0d2a70a18334ad48
 
 @media screen and (max-width: 765px) {
   .nav__logo {
@@ -4697,12 +4688,5 @@ body {
   .gallery__img {
     max-width: 100%;
     max-height: 100%; }
-<<<<<<< HEAD
-    .gallery__img-wrapper:hover {
-      -webkit-box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
-      -moz-box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); }
-=======
->>>>>>> c4b4d47646148e02005f983d0d2a70a18334ad48
 
 /*# sourceMappingURL=style.css.map */
