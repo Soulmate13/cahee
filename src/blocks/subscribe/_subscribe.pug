@@ -2,13 +2,19 @@ mixin subscribe
     .subscribe
         .subscribe__wrapper
             .container.container--lg
-                .row
-                    .col-lg-6.col-md-7.col-sm-11
-                        h2.subscribe__title Subscribe To Us
-                        p.subscribe__subtitle Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-                .row
-                    .col-lg-9.col-md-10.col-sm-12
-                        form.subscribe__form(action='')
-                            input.subscribe__input#email(type="email", name="your email", placeholder="Your email address...", required)
-                            input.subscribe__btn.btn.btn--subscribe(type="submit", value="subscribe", for="email")
+                .subscribe__top
+                    .row
+                        .col-lg-6.col-md-7.col-sm-11
+                            h2.subscribe__title Subscribe To Us
+                            p.subscribe__subtitle Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                form.subscribe__form(action='')
+                    //- .col-lg-9.col-md-10.col-sm-12
+                    //-     form.subscribe__form(action='')
+                    //-         input.subscribe__input#email(type="email", name="your email", placeholder="Your email address...", required)
+                    //-         input.subscribe__btn.btn.btn--subscribe(type="submit", value="subscribe", for="email")
+                    .row
+                        .col-lg-6.col-md-8.col-sm-10.col-11
+                                input.subscribe__input#email(type="email", name="your email", placeholder="Your email address...", required)
+                        .col-lg-2.col-md-2.col-sm-4.col-12
+                                input.subscribe__btn.btn.btn--subscribe(type="submit", value="subscribe", for="email")
                 

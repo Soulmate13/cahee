@@ -6,35 +6,31 @@
 
         @media screen and (max-width: 991px) {
             margin-bottom: 150px;
-            }
+        }
 
-            @media screen and (max-width: 765px) {
+        @media screen and (max-width: 765px) {
             margin-bottom: 100px;
-            }
+        }
 
+    }
     &__header {
         display: flex;
     }
-    }
 
     &__logo {
+
         @media screen and (max-width: 765px) {
             padding-top: 50px;
         }
+    }
 
-        &-link {
+    &__logo-link {
         position: relative;
         z-index: 3;
-
-        }
     }
 
     &__checkbox {
         display: none;
-
-        &:checked+.nav__burger+.nav__list {
-            max-height: 300px;
-        }
 
         &:checked+.nav__burger>.fa-hamburger {
             display: none;    
@@ -42,8 +38,11 @@
 
         &:checked+.nav__burger>.fa-times {
             display: block;
-        }
-        
+        }   
+    }
+
+    &__checkbox:checked+&__burger+&__list {
+        max-height: 400px;
     }
 
     &__burger {
@@ -59,19 +58,17 @@
         & > .fa-times {
             display: none;
         }
+
         @media screen and (min-width: 768px) {
             display: none;
         }
 
         @media screen and (max-width: 765px) {
             padding-top: 50px;
-        }
-
-        
+        }   
     }
 
     &__list {
-
         margin-top: 10px;
 
         @media screen and (max-width: 767px) {
@@ -87,8 +84,7 @@
             transition: ease .3s;
             z-index: 1;
             text-align: center;
-            margin-top: 0;
-
+            margin-top: 0;   
         }
     }
 
@@ -99,37 +95,37 @@
         padding-top: 10px;
         margin-left: 38px;
 
-        &:hover {
-            border-top: 3px solid #ff6033;
-            padding-top: 7px;
-
-            @media screen and (max-width: 767px) {
-                // border: 1px solid white;
-                border: none;
-                padding-top: 10px;
+        @media screen and (min-width: 769px) {
+            &:hover {
+                border-top: 3px solid #ff6033;
+                padding-top: 7px;  
             }
-            
         }
 
-    
+        @media screen and (max-width: 767px) {
+            &:first-child {
+                padding-top: 20px;
+                }
+        }
+
+        @media screen and (max-width: 575px) {
+        
+            &:first-child {
+                padding-top: 100px;
+            }
+        }
+
         @media screen and (max-width: 767px) {
             padding-top: 10px;
             padding-bottom: 10px;
             margin: 0;
             width: 100%;
-            // border-top: 1px solid white;
-
-
-        
         }
-        
     }
 
     &__link {
         text-decoration: none;
-        color: #262626;
-
-        
+        color: #262626;   
     }
     
 }

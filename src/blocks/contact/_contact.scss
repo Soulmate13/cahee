@@ -1,11 +1,7 @@
 .contact {
 
-    // background-image: url(../../dist/img/contact_background_full.png);
-    // background-repeat: no-repeat;
-    // background-position: top;
-
     &__main {
-        background-image: url(../../dist/img/contact@x1.jpg);
+        background-image: url(../../dist/img/contact@x1.png);
         background-repeat: no-repeat;
         background-position: top;
         background-size: cover;
@@ -28,10 +24,8 @@
 
         @media screen and (max-width:575px) {
             font-size: 60px;
-            margin-bottom: 16px;
-            
+            margin-bottom: 16px;   
         }
-
     }
 
     &__subtitle {
@@ -45,10 +39,8 @@
         @media screen and (max-width:575px) {
             font-size: 16px;
             padding: 10px 10px;
-            margin-bottom: 23px;
-            
+            margin-bottom: 23px;  
         }
-
     }
 
 }

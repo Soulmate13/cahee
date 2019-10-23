@@ -4,13 +4,11 @@
         line-height: 15px;
 
         @media screen and (min-width:1201px) {
-            margin-left: -25px;
-            
+            margin-left: -25px;   
         }
 
         @media screen and (max-width:575px) {
-            padding: 10px 10px;
-            
+            padding: 10px 10px;  
         }
     }
     
@@ -24,15 +22,16 @@
         font-size: 20px;
         font-weight: 300;
         margin-bottom: 20px;
-
     }
 
     &__link {
         text-decoration: none;
         color: black;
+
+        &:hover {
+            text-decoration: underline;
+            background-color: #00c4c4;
+        }
     }
 
-    &__link--email {
-        text-decoration: underline;
-    }
 }

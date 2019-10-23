@@ -1,5 +1,4 @@
 .services {
-    // background-image: url(../../dist/img/services_background_full.png);
     background-position: 82% 60%;
     background-repeat: no-repeat;
     background-image: url(../../dist/img/services@x1.png);
@@ -37,8 +36,7 @@
         @media screen and (max-width: 575px) {
             padding-top: 50px;
             padding-bottom: 200px;
-        }
-        
+        }    
     }
 
     &__heading {
@@ -52,7 +50,6 @@
             text-align: center;
         }
         
-
         &-wrapper {
             margin-bottom: 107px;
             margin-left: 26px
