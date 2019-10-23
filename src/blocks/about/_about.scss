@@ -1,7 +1,6 @@
 .about {
     background-color: #00b5b5; 
-    // background-image: url(/dist/img/about_background.png);
-    background-image: url(/dist/img/about@x1.png);
+    background-image: url(../../dist/img/about@x1.png);
     background-position: 11% 50%;
     background-repeat: no-repeat;
 
@@ -10,11 +9,9 @@
         background-position: 4% 50%;
     }
 
-
     @media screen and (max-width: 991px) {
         background-size: 45%;
         background-position: 50% 99%;
-
     }
 
     @media screen and (max-width: 765px) {
@@ -25,9 +22,7 @@
     @media screen and (max-width: 575px) {
         background-size: 45%;
         background-position: 50% 91%;
-    
     }
-
 
     &__wrapper {
         padding-top: 170px;
@@ -44,11 +39,12 @@
         }
         @media screen and (max-width: 575px) {
             padding-bottom: 250px;
-            }
+        }
         
     }
 
     &__content {
+
         @media screen and (max-width: 991px) {
             text-align: center;
         }
@@ -62,8 +58,7 @@
 
         @media screen and (max-width:575px) {
             font-size: 60px;
-            margin-bottom: 30px;
-            
+            margin-bottom: 30px;  
         }
     }
 
@@ -76,9 +71,7 @@
 
         @media screen and (max-width:575px) {
             padding: 0 15px;
-            
         }
-
     }
 
 }

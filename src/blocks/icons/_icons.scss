@@ -5,6 +5,7 @@
     stroke-width: 0;
     stroke: currentColor;
     fill: currentColor;
+
     &--footer {
         width: 64px;
         height: 23px;
@@ -20,9 +21,9 @@
         height: 52px;
         width: 126px;
 
-
         &:hover {
             color: #ff6033;
         }
     }
+    
 } 

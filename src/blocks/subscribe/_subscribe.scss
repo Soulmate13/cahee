@@ -1,8 +1,6 @@
 .subscribe {
 
-    // background-image: url(/dist/img/subscribe_background_full.png);
-    // background-position: top;
-    background-image: url(/dist/img/subscribeX1.png);
+    background-image: url(../../dist/img/subscribeX1.png);
     background-position: 92% 50%;
     background-repeat: no-repeat;
 
@@ -10,7 +8,6 @@
         background-size: 50%;
         background-position: 96% 50%;
     }
-
 
     @media screen and (max-width: 991px) {
         background-size: 50%;
@@ -32,21 +29,20 @@
         padding-top: 140px;
         padding-bottom: 164px;
 
-            @media screen and (max-width: 765px) {
-            padding-top: 70px;
-            padding-bottom: 198px;
-            }
+        @media screen and (max-width: 765px) {
+        padding-top: 70px;
+        padding-bottom: 198px;
+        }
 
-            @media screen and (max-width: 609px) {
-            padding-bottom: 170px;
-    
-                // костыль из-за правого марджина
-            }
+        @media screen and (max-width: 609px) {
+        padding-bottom: 170px;
 
-            @media screen and (max-width: 575px) {
-            padding-top: 70px;
-            padding-bottom: 150px;
-            }
+        }
+
+        @media screen and (max-width: 575px) {
+        padding-top: 70px;
+        padding-bottom: 150px;
+        }
     }
 
     &__title {
@@ -75,19 +71,20 @@
     }
 
     &__input {
-        width: 65.5%;
+        max-width: 100%;
+        width: 100%;
         border: 1px solid #262626;
         font-family: "Raleway";
         font-size: 15px;
         font-weight: 400;
         padding: 18px 14px;
-        margin-right: 27px;
 
+        @media screen and (max-width: 765px) {
+            margin-bottom: 20px;
+        }
         @media screen and (max-width: 575px) {
             padding: 10px;
-            margin-left: 10px;
         }
-
 
         &:hover {
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
@@ -98,39 +95,26 @@
             padding-left: 10px;
         }
 
-        @media screen and (max-width: 609px) {
-            margin-bottom: 20px;
-
-            // костыль из-за правого марджина
-        }
-
     }
 
+    &__input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+        color: rgba($color: #262626, $alpha: 0.5);
+        font-family: "Raleway";
+    }
+    //   ::-moz-placeholder { /* Firefox 19+ */
+    //     color: rgba($color: #262626, $alpha: 0.5);
+    //     font-family: "Raleway";
+    //   }
+    //   :-ms-input-placeholder { /* IE 10+ */
+    //     color: rgba($color: #262626, $alpha: 0.5);
+    //     font-family: "Raleway";
+    //   }
+    //   :-moz-placeholder { /* Firefox 18- */
+    //     color: rgba($color: #262626, $alpha: 0.5);
+    //     font-family: "Raleway";
+    //   }
     &__btn {
         padding: 16px 30px;
-
-        @media screen and (max-width: 575px) {
-            margin-left: 10px;
-        }
-
-
     }
-
-    ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-        color: rgba($color: #262626, $alpha: 0.5);
-        font-family: "Raleway";
-      }
-      ::-moz-placeholder { /* Firefox 19+ */
-        color: rgba($color: #262626, $alpha: 0.5);
-        font-family: "Raleway";
-      }
-      :-ms-input-placeholder { /* IE 10+ */
-        color: rgba($color: #262626, $alpha: 0.5);
-        font-family: "Raleway";
-      }
-      :-moz-placeholder { /* Firefox 18- */
-        color: rgba($color: #262626, $alpha: 0.5);
-        font-family: "Raleway";
-      }
 
 }
