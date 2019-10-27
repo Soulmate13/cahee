@@ -1,5 +1,5 @@
 .services {
-    background-position: 82% 60%;
+    background-position: 84% 37%;
     background-repeat: no-repeat;
     background-image: url(../../dist/img/services@x1.png);
     background-color: #70bfff;
@@ -43,6 +43,10 @@
         color: #fff;
         font-size: 90px;
         font-weight: 700;
+        margin-top: -107px;
+        margin-left: 26px;
+        margin-right: -2px;
+
 
         @media screen and (max-width: 767px) {
             font-size: 60px;

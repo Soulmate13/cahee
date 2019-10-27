@@ -9,6 +9,8 @@
 
     &--blog {
         background-color: #f72b3b;
+        padding: 16px 44px;
+        margin-bottom: 0;
 
         &:hover {
             background-color: white;
@@ -28,10 +30,10 @@
 
     &--subscribe {
         background-color: #96b92c;
-        padding: 16px 26px;
+        padding: 16px 30px;
         border: none;
         text-transform: uppercase;
-        font-family: Raleway;
+        font-family: 'Raleway', sans-serif;
 
         &:hover {
             background-color: white;

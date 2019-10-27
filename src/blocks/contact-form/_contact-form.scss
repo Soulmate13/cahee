@@ -3,8 +3,9 @@
     &__wrapper {
         display: flex;
         flex-direction: column;
+        
         &:last-child {
-            margin-bottom: 41px;
+            margin-bottom: 66px;
 
             @media screen and (max-width:575px) {
                 margin-bottom: 10px;

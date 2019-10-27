@@ -34,7 +34,9 @@
         font-weight: 300;
 
             @media screen and (min-width:1201px) {
-            margin-left: 171px;
+                margin-left: 171px;
+                margin-right: -11px;
+                padding-top: 2px;
             }
 
     }
