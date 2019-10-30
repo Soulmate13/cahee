@@ -25,9 +25,9 @@
     }
 
     &__wrapper {
-        padding-top: 170px;
-        padding-right: 60px;
-        padding-bottom: 235px;
+        padding-top: 169px;
+        padding-right: 65px;
+        padding-bottom: 217px;
 
         @media screen and (max-width: 991px) {
             padding-top: 40px;
@@ -44,9 +44,11 @@
     }
 
     &__content {
+        // margin-right: -10px;
 
         @media screen and (max-width: 991px) {
             text-align: center;
+            // margin-right: 0;
         }
     }
 
@@ -54,7 +56,7 @@
         color: white;
         font-size: 90px;
         font-weight: 700;
-        margin-bottom: 16px;
+        margin-bottom: 14px;
 
         @media screen and (max-width:575px) {
             font-size: 60px;
@@ -66,11 +68,14 @@
         color: white;
         font-size: 17px;
         font-weight: 300;
-        margin-bottom: 20px;
-        line-height: 1.5em;
+        margin-bottom: 11px;
+        line-height: 27px;
+        letter-spacing: -0.1px;
+        margin-right: -32px;
 
         @media screen and (max-width:575px) {
             padding: 0 15px;
+            margin-right: 0px
         }
     }
 
