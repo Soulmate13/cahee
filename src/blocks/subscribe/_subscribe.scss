@@ -50,7 +50,11 @@
         font-size: 40px;
         font-weight: 700;
         margin-bottom: 22px;
-        margin-left: -1px;
+        margin-left: -3px;
+
+        @media screen and (max-width: 1199px) {
+            margin-left: 0;
+        }
 
         @media screen and (max-width:575px) {
             padding: 0 15px;
@@ -61,9 +65,13 @@
         color: #262626;
         font-size: 17px;
         font-weight: 300;
-        margin-bottom: 28px;
-        margin-left: -2px;
+        margin-bottom: 29px;
         line-height: 26px;
+        margin-left: -5px;
+
+        @media screen and (max-width: 1199px) {
+            margin-left: 0;
+        }
         
 
         @media screen and (max-width:575px) {
@@ -79,6 +87,11 @@
         font-size: 15px;
         font-weight: 400;
         padding: 18px 13px;
+        margin-left: -2px;
+
+        @media screen and (max-width: 1199px) {
+            margin-left: 0;
+        }
 
         @media screen and (max-width: 765px) {
             margin-bottom: 20px;
@@ -93,7 +106,7 @@
 
         &:focus {
             border-left: 5px solid #96b92c;
-            padding-left: 10px;
+            padding-left: 9px;
         }
 
     }

@@ -44,11 +44,9 @@
     }
 
     &__content {
-        // margin-right: -10px;
 
         @media screen and (max-width: 991px) {
             text-align: center;
-            // margin-right: 0;
         }
     }
 
@@ -70,7 +68,6 @@
         font-weight: 300;
         margin-bottom: 11px;
         line-height: 27px;
-        letter-spacing: -0.1px;
         margin-right: -32px;
 
         @media screen and (max-width:575px) {

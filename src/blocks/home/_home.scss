@@ -52,7 +52,7 @@
     }
 
     &__info-bottom {
-                padding-bottom: 70px;
+        padding-bottom: 68px;
     }
 
 
@@ -62,7 +62,7 @@
         font-weight: 800;
         margin-left: -6px;
         letter-spacing: 1px;
-        padding-bottom: 21px;
+        padding-bottom: 19px;
         margin-top: 2px;    
 
         @media screen and (max-width:575px) {
@@ -75,8 +75,9 @@
         color: #262626;
         font-size: 17px;
         font-weight: 300;
-        line-height: 26px;
+        line-height: 27px;
         margin-bottom: 46px;
+        margin-left: -2px;
 
     }
 
