@@ -1,10 +1,11 @@
 .contact-info {
    
     &__wrapper {
-        line-height: 15px;
+
+        line-height: 13px;
 
         @media screen and (min-width:1201px) {
-            margin-left: -25px;   
+        margin-left: -27px;  
         }
 
         @media screen and (max-width:575px) {
@@ -21,7 +22,7 @@
     &__item {
         font-size: 20px;
         font-weight: 300;
-        margin-bottom: 20px;
+        margin-bottom: 25px;
     }
 
     &__link {

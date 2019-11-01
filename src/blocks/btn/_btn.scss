@@ -9,8 +9,13 @@
 
     &--blog {
         background-color: #f72b3b;
-        padding: 16px 44px;
+        padding: 18px 45px;
         margin-bottom: 0;
+        margin-left: -5px;
+
+        @media screen and (max-width: 1199px) {
+            margin-left: 0;
+        }
 
         &:hover {
             background-color: white;

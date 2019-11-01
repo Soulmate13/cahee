@@ -3901,7 +3901,12 @@ body {
   max-width: 370px;
   text-align: center;
   margin-bottom: 45px;
-  line-height: 1.4em; }
+  line-height: 1.4em;
+  margin-left: -6px;
+  letter-spacing: -0.1px; }
+  @media screen and (max-width: 1199px) {
+    .contact__subtitle {
+      margin-left: 0px; } }
   @media screen and (max-width: 575px) {
     .contact__subtitle {
       font-size: 16px;
@@ -3920,12 +3925,11 @@ body {
   -moz-box-orient: vertical;
   -moz-box-direction: normal;
   -ms-flex-direction: column;
-  flex-direction: column; }
-  .contact-form__wrapper:last-child {
-    margin-bottom: 66px; }
-    @media screen and (max-width: 575px) {
-      .contact-form__wrapper:last-child {
-        margin-bottom: 10px; } }
+  flex-direction: column;
+  margin-bottom: 71px; }
+  @media screen and (max-width: 575px) {
+    .contact-form__wrapper {
+      margin-bottom: 10px; } }
   @media screen and (min-width: 1201px) {
     .contact-form__wrapper {
       padding-right: 70px;
@@ -3938,8 +3942,8 @@ body {
   width: 100%;
   background-color: #00c4c4;
   border: none;
-  margin-bottom: 16px;
-  padding: 16px;
+  margin-bottom: 15px;
+  padding: 16px 19px;
   opacity: 0.5;
   color: white;
   font-size: 15px;
@@ -3951,7 +3955,7 @@ body {
   .contact-form__input:focus {
     opacity: 1;
     border-left: 5px solid #355b82;
-    padding-left: 11px; }
+    padding-left: 14px; }
   .contact-form__input--textarea {
     resize: vertical; }
 
@@ -3978,10 +3982,10 @@ body {
     padding-left: 5px; }
 
 .contact-info__wrapper {
-  line-height: 15px; }
+  line-height: 13px; }
   @media screen and (min-width: 1201px) {
     .contact-info__wrapper {
-      margin-left: -25px; } }
+      margin-left: -27px; } }
   @media screen and (max-width: 575px) {
     .contact-info__wrapper {
       padding: 10px 10px; } }
@@ -3994,7 +3998,7 @@ body {
 .contact-info__item {
   font-size: 20px;
   font-weight: 300;
-  margin-bottom: 20px; }
+  margin-bottom: 25px; }
 
 .contact-info__link {
   text-decoration: none;
@@ -4020,7 +4024,7 @@ body {
     font-weight: 300; }
     @media screen and (min-width: 1201px) {
       .footer__rights {
-        margin-left: -114px; } }
+        margin-left: -118px; } }
     @media screen and (max-width: 576px) {
       .footer__rights {
         padding-top: 20px;
@@ -4030,15 +4034,15 @@ body {
     font-weight: 300; }
     @media screen and (min-width: 1201px) {
       .footer__author {
-        margin-left: 171px;
+        margin-left: 164px;
         margin-right: -11px;
-        padding-top: 2px; } }
+        padding-top: 2px;
+        line-height: 13px; } }
   .footer__author-link-red {
     color: #ff2b58;
     font-weight: 700;
     display: inline-block;
-    text-decoration: none;
-    letter-spacing: 0.1em; }
+    text-decoration: none; }
     .footer__author-link-red:hover {
       text-decoration: underline; }
 
@@ -4123,17 +4127,21 @@ body {
   .blog__title {
     font-size: 90px;
     font-weight: 700;
-    margin-bottom: 35px; }
+    margin-bottom: 32px; }
   .blog__paragraph {
     font-size: 17px;
     font-weight: 300;
     max-width: 570px;
-    margin-bottom: 46px;
-    line-height: 23px;
-    text-align: center; }
+    margin-bottom: 44px;
+    line-height: 25px;
+    text-align: center;
+    margin-left: -2px; }
+    @media screen and (max-width: 1199px) {
+      .blog__paragraph {
+        margin-left: 0; } }
 
 .panel__wrapper {
-  margin-bottom: 51px;
+  margin-bottom: 50px;
   pointer-events: none;
   position: relative; }
 
@@ -4163,8 +4171,8 @@ body {
   position: absolute;
   z-index: 1;
   color: white;
-  top: 0;
-  left: 0; }
+  top: 0px;
+  left: -2px; }
 
 .panel__date {
   width: 60px;
@@ -4177,8 +4185,8 @@ body {
   display: block;
   text-align: center;
   position: relative;
-  top: 30px;
-  left: 30px; }
+  top: 31px;
+  left: 29px; }
 
 .panel__day {
   font-size: 32px;
@@ -4206,7 +4214,7 @@ body {
   top: 167px; }
 
 .panel__button-wrapper {
-  padding-bottom: 123px;
+  margin-bottom: 119px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -4235,8 +4243,12 @@ body {
   font-weight: 300; }
   .btn--blog {
     background-color: #f72b3b;
-    padding: 16px 44px;
-    margin-bottom: 0; }
+    padding: 18px 45px;
+    margin-bottom: 0;
+    margin-left: -5px; }
+    @media screen and (max-width: 1199px) {
+      .btn--blog {
+        margin-left: 0; } }
     .btn--blog:hover {
       background-color: white;
       color: #f72b3b; }

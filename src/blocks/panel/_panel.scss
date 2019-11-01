@@ -1,6 +1,6 @@
 .panel {
     &__wrapper {
-        margin-bottom: 51px;
+        margin-bottom: 50px;
         pointer-events: none;
         position: relative;
     }
@@ -30,8 +30,8 @@
         position: absolute;
         z-index: 1;
         color: white;
-        top: 0;
-        left: 0;
+        top: 0px;
+        left: -2px;
     
     }
     
@@ -44,8 +44,8 @@
         display: block;
         text-align: center;
         position: relative;
-        top: 30px;
-        left: 30px;
+        top: 31px;
+        left: 29px;    
     }
     
     &__day {
@@ -78,7 +78,7 @@
     }
 
     &__button-wrapper {
-        padding-bottom: 123px;
+        margin-bottom: 119px;
         display: flex;
         align-items: center;
         justify-content: center;
