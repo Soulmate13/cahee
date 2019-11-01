@@ -1,11 +1,20 @@
 .panel-column {
 
     &__wrapper {
-        margin-left: 99px;
-
+        margin-left: 32px;
+        
         @media screen and (max-width:1199px) {
             margin-left: 0px;
         }
+
+        @media screen and (max-width: 991px) {
+            margin-left: 0px;
+        }
+
+        @media screen and (max-width: 765px) {
+            margin-left: 0px;
+        }
+
     }
 
     &__link {
@@ -46,6 +55,7 @@
         @media screen and (max-width: 991px) {
             padding: 0 15px;
         }
+
     }
 
     &__icon-wrapper {
@@ -54,6 +64,10 @@
 
         @media screen and (max-width: 767px) {
             padding: 13px;
+        }
+
+        @media screen and (max-width: 320px) {
+            padding: 25px 13px;
         }
 
     }

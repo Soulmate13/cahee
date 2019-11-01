@@ -11,7 +11,7 @@
 
     @media screen and (max-width: 991px) {
         background-size: 45%;
-        background-position: 50% 99%;
+        background-position: 50% 109%;
     }
 
     @media screen and (max-width: 765px) {
@@ -30,13 +30,11 @@
         padding-bottom: 217px;
 
         @media screen and (max-width: 991px) {
-            padding-top: 40px;
-            padding-bottom: 301px;
-        }
-
-        @media screen and (max-width: 991px) {
+            padding-top: 50px;
+            padding-bottom: 326px;
             padding-right: 0px;
         }
+
         @media screen and (max-width: 575px) {
             padding-bottom: 250px;
         }
@@ -57,7 +55,7 @@
         margin-bottom: 14px;
 
         @media screen and (max-width:575px) {
-            font-size: 60px;
+            font-size: 48px;
             margin-bottom: 30px;  
         }
     }
