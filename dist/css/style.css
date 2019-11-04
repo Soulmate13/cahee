@@ -4061,8 +4061,11 @@ body {
 .about {
   background-color: #00b5b5;
   background-image: url(../../dist/img/about@x1.png);
-  background-position: 11% 50%;
+  background-position: 24% 50%;
   background-repeat: no-repeat; }
+  @media screen and (max-width: 1499px) {
+    .about {
+      background-position: 16% 50%; } }
   @media screen and (max-width: 1199px) {
     .about {
       -webkit-background-size: 45% 45%;
@@ -4632,10 +4635,13 @@ body {
     font-family: "Raleway"; }
 
 .services {
-  background-position: 86% 39%;
+  background-position: 75% 39%;
   background-repeat: no-repeat;
   background-image: url(../../dist/img/services@x1.png);
   background-color: #70bfff; }
+  @media screen and (max-width: 1499px) {
+    .services {
+      background-position: 86% 39%; } }
   @media screen and (max-width: 1199px) {
     .services {
       -webkit-background-size: 41% 41%;
@@ -4680,7 +4686,7 @@ body {
     font-size: 90px;
     font-weight: 700;
     margin-top: -106px;
-    margin-left: 26px; }
+    margin-left: 24px; }
     @media screen and (max-width: 1199px) {
       .services__heading {
         text-align: center;

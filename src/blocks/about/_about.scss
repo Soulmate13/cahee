@@ -1,8 +1,13 @@
 .about {
     background-color: #00b5b5; 
     background-image: url(../../dist/img/about@x1.png);
-    background-position: 11% 50%;
+    background-position: 24% 50%;
     background-repeat: no-repeat;
+
+    @media screen and (max-width: 1499px) {
+        background-position: 16% 50%;
+        
+    }
 
     @media screen and (max-width: 1199px) {
         background-size: 45%;
