@@ -20,8 +20,7 @@
         }
 
         @media screen and (max-width: 575px) {
-            background-size: 41%;
-            background-position: 50% 95%;
+            background-image: none;
         }
 
     &__wrapper {
@@ -46,7 +45,7 @@
         }
 
         @media screen and (max-width: 575px) {
-            padding-bottom: 200px;
+            padding-bottom: 100px;
         }
 
     }
