@@ -4174,11 +4174,11 @@ body {
     height: 100%;
     top: 0;
     left: 0;
-    background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.81)), to(rgba(255, 255, 255, 0.81)));
-    background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.81) 0%, rgba(255, 255, 255, 0.81) 100%);
-    background-image: -moz-linear-gradient(bottom, rgba(0, 0, 0, 0.81) 0%, rgba(255, 255, 255, 0.81) 100%);
-    background-image: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.81) 0%, rgba(255, 255, 255, 0.81) 100%);
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.81) 0%, rgba(255, 255, 255, 0.81) 100%);
+    background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.81)), to(rgba(255, 255, 255, 0)));
+    background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.81) 0%, rgba(255, 255, 255, 0) 100%);
+    background-image: -moz-linear-gradient(bottom, rgba(0, 0, 0, 0.81) 0%, rgba(255, 255, 255, 0) 100%);
+    background-image: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.81) 0%, rgba(255, 255, 255, 0) 100%);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.81) 0%, rgba(255, 255, 255, 0) 100%);
     z-index: 5; }
 
 .panel__link {
