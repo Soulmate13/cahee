@@ -4199,8 +4199,8 @@ body {
 
 .panel__text {
   position: absolute;
-  z-index: 1;
-  color: black;
+  z-index: 6;
+  color: white;
   left: 0px;
   bottom: 191px;
   padding-right: 27px; }
@@ -4224,7 +4224,7 @@ body {
   position: absolute;
   top: 30px;
   left: 31px;
-  z-index: 2; }
+  z-index: 6; }
   @media screen and (max-width: 575px) {
     .panel__date {
       top: 15px; } }
