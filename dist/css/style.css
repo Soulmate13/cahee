@@ -3969,10 +3969,10 @@ body {
       .contact-form__input:focus {
         padding: 10px 5px; } }
   .contact-form__input--textarea {
-    resize: vertical; }
+    resize: vertical;
+    -ms-overflow-style: none; }
 
 .contact-form__input::-webkit-input-placeholder {
-  /* Chrome/Opera/Safari */
   color: white;
   font-family: 'Raleway', sans-serif; }
 

@@ -48,26 +48,15 @@
 
         &--textarea {
             resize: vertical;
+            -ms-overflow-style: none;
         }
 
     }
 
-    &__input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    &__input::-webkit-input-placeholder { 
         color: white;
         font-family: 'Raleway', sans-serif;
     }
-    //   ::-moz-placeholder { /* Firefox 19+ */
-    //     color: white;
-    //     font-family: 'Raleway', sans-serif;
-    //   }
-    //   :-ms-input-placeholder { /* IE 10+ */
-    //     color: white;
-    //     font-family: 'Raleway', sans-serif;
-    //   }
-    //   :-moz-placeholder { /* Firefox 18- */
-    //     color: white;
-    //     font-family: 'Raleway', sans-serif;
-    //   }
 
     &__submit {
         background-color: #00c4c4;
@@ -77,6 +66,7 @@
         opacity: 0.7;
         font-family: 'Raleway', sans-serif;
         color: white;
+
 
         &:hover {
             opacity: 1;
