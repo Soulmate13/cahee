@@ -6,6 +6,14 @@
         background-position: top;
         background-size: cover;
         font-family: 'Raleway', sans-serif;
+
+        @media screen and (min-resolution: 2dppx) {
+            background-image: url(../../dist/img/contact@x2.png);
+        }
+    
+        @media screen and (min-resolution: 3dppx) {
+            background-image: url(../../dist/img/contact@x3.png);
+        }
     }
 
     &__top {

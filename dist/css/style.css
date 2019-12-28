@@ -3863,6 +3863,12 @@ body {
   -o-background-size: cover;
   background-size: cover;
   font-family: 'Raleway', sans-serif; }
+  @media screen and (-webkit-min-device-pixel-ratio: 2), screen and (-o-min-device-pixel-ratio: 2/1), screen and (min-resolution: 2dppx) {
+    .contact__main {
+      background-image: url(../../dist/img/contact@x2.png); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 3), screen and (-o-min-device-pixel-ratio: 3/1), screen and (min-resolution: 3dppx) {
+    .contact__main {
+      background-image: url(../../dist/img/contact@x3.png); } }
 
 .contact__top {
   color: #262626;
@@ -4063,6 +4069,12 @@ body {
   background-image: url(../../dist/img/about@x1.png);
   background-position: 24% 50%;
   background-repeat: no-repeat; }
+  @media screen and (-webkit-min-device-pixel-ratio: 2), screen and (-o-min-device-pixel-ratio: 2/1), screen and (min-resolution: 2dppx) {
+    .about {
+      background-image: url(../../dist/img/about@x2.png); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 3), screen and (-o-min-device-pixel-ratio: 3/1), screen and (min-resolution: 3dppx) {
+    .about {
+      background-image: url(../../dist/img/about@x3.png); } }
   @media screen and (max-width: 1499px) {
     .about {
       background-position: 16% 50%; } }
@@ -4350,6 +4362,12 @@ body {
   background-image: url(../../dist/img/header@x1.png);
   background-repeat: no-repeat;
   background-color: #f9f8fb; }
+  @media screen and (-webkit-min-device-pixel-ratio: 2), screen and (-o-min-device-pixel-ratio: 2/1), screen and (min-resolution: 2dppx) {
+    .home {
+      background-image: url(../../dist/img/header@x2.png); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 3), screen and (-o-min-device-pixel-ratio: 3/1), screen and (min-resolution: 3dppx) {
+    .home {
+      background-image: url(../../dist/img/header@x3.png); } }
   @media screen and (max-width: 1199px) {
     .home {
       -webkit-background-size: 50% 50%;
@@ -4535,6 +4553,12 @@ body {
   background-image: url(../../dist/img/subscribeX1.png);
   background-position: 92% 50%;
   background-repeat: no-repeat; }
+  @media screen and (-webkit-min-device-pixel-ratio: 2), screen and (-o-min-device-pixel-ratio: 2/1), screen and (min-resolution: 2dppx) {
+    .subscribe {
+      background-image: url(../../dist/img/subscribeX2.png); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 3), screen and (-o-min-device-pixel-ratio: 3/1), screen and (min-resolution: 3dppx) {
+    .subscribe {
+      background-image: url(../../dist/img/subscribeX3.png); } }
   @media screen and (max-width: 1199px) {
     .subscribe {
       -webkit-background-size: 50% 50%;
@@ -4638,6 +4662,12 @@ body {
   background-repeat: no-repeat;
   background-image: url(../../dist/img/services@x1.png);
   background-color: #70bfff; }
+  @media screen and (-webkit-min-device-pixel-ratio: 2), screen and (-o-min-device-pixel-ratio: 2/1), screen and (min-resolution: 2dppx) {
+    .services {
+      background-image: url(../../dist/img/services@x2.png); } }
+  @media screen and (-webkit-min-device-pixel-ratio: 3), screen and (-o-min-device-pixel-ratio: 3/1), screen and (min-resolution: 3dppx) {
+    .services {
+      background-image: url(../../dist/img/services@x3.png); } }
   @media screen and (max-width: 1499px) {
     .services {
       background-position: 86% 39%; } }

@@ -4,6 +4,14 @@
         background-repeat: no-repeat;
         background-color: #f9f8fb;
 
+        @media screen and (min-resolution: 2dppx) {
+            background-image: url(../../dist/img/header@x2.png);
+        }
+
+        @media screen and (min-resolution: 3dppx) {
+            background-image: url(../../dist/img/header@x3.png);
+        }
+
         @media screen and (max-width: 1199px) {
             background-size: 50%;
             background-position: 88% 50%;

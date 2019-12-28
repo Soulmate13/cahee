@@ -4,6 +4,14 @@
     background-image: url(../../dist/img/services@x1.png);
     background-color: #70bfff;
 
+    @media screen and (min-resolution: 2dppx) {
+        background-image: url(../../dist/img/services@x2.png);
+    }
+
+    @media screen and (min-resolution: 3dppx) {
+        background-image: url(../../dist/img/services@x3.png);
+    }
+
     @media screen and (max-width: 1499px) {
         background-position: 86% 39%;
         
