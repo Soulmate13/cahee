@@ -1,20 +1,10 @@
 .about {
     background-color: #00b5b5; 
-    background-image: url(../../dist/img/about@x1.png);
     background-position: 24% 50%;
     background-repeat: no-repeat;
 
-    @media screen and (min-resolution: 2dppx) {
-        background-image: url(../../dist/img/about@x2.png);
-    }
-
-    @media screen and (min-resolution: 3dppx) {
-        background-image: url(../../dist/img/about@x3.png);
-    }
-
     @media screen and (max-width: 1499px) {
         background-position: 16% 50%;
-        
     }
 
     @media screen and (max-width: 1199px) {
@@ -86,4 +76,12 @@
         }
     }
 
+}
+
+.no-webp .about {
+    background-image: url(../img/about@x1.png);
+}
+
+.webp .about {
+    background-image: url(../webp/about@x1.webp);
 }

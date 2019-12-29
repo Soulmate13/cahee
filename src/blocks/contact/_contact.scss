@@ -5,14 +5,6 @@
         background-position: top;
         background-size: cover;
         font-family: 'Raleway', sans-serif;
-
-        @media screen and (min-resolution: 2dppx) {
-            background-image: url(../../dist/img/contact@x2.png);
-        }
-    
-        @media screen and (min-resolution: 3dppx) {
-            background-image: url(../../dist/img/contact@x3.png);
-        }
     }
 
     &__top {
@@ -73,8 +65,24 @@
 
 .no-webp .contact__main {
     background-image: url(../img/contact@x1.png);
+
+    @media screen and (min-resolution: 2dppx) {
+        background-image: url(../img/contact@x2.png);
+    }
+
+    @media screen and (min-resolution: 3dppx) {
+        background-image: url(../img/contact@x3.png);
+    }
 }
 
 .webp .contact__main {
     background-image: url(../webp/contact@x1.webp);
+
+    @media screen and (min-resolution: 2dppx) {
+        background-image: url(../webp/contact@x2.webp);
+    }
+
+    @media screen and (min-resolution: 3dppx) {
+        background-image: url(../webp/contact@x3.webp);
+    }
 }
