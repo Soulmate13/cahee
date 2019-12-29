@@ -4204,7 +4204,8 @@ body {
     z-index: 5; }
 
 .panel__link {
-  display: inline-block;
+  display: block;
+  max-width: 100%;
   position: relative;
   text-decoration: none;
   pointer-events: all; }
@@ -4292,6 +4293,9 @@ body {
   -moz-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center; }
+
+.panel img {
+  max-width: 100%; }
 
 .btn {
   -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
