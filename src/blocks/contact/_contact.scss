@@ -1,7 +1,6 @@
 .contact {
 
     &__main {
-        background-image: url(../../dist/img/contact@x1.png);
         background-repeat: no-repeat;
         background-position: top;
         background-size: cover;
@@ -70,4 +69,12 @@
         }
     }
 
+}
+
+.no-webp .contact__main {
+    background-image: url(../img/contact@x1.png);
+}
+
+.webp .contact__main {
+    background-image: url(../webp/contact@x1.webp);
 }

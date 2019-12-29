@@ -10,33 +10,33 @@ mixin gallery
             .gallery__panel
                 .row
                     .col-lg-8.col-md-6.mb-md-4.mb-sm-4.mb-4
-                            .gallery__img-wrapper 
-                                img.gallery__img(src="../dist/img/gallery01@x1.png", srcset="../dist/img/gallery01@x1.png 1x, ../dist/img/gallery01@x2.png 2x, ../dist/img/gallery01@x3.png 3x ", alt="pork on a plate")
+                            .gallery__img-wrapper
+                                +picture("gallery01","png","pork on a plate").gallery__img
                     .col-md-6.d-md-block.d-lg-none.mb-md-4.mb-sm-4.mb-4
                             .gallery__img-wrapper
-                                img.gallery__img(src="../dist/img/gallery02@x1.png" srcset="../dist/img/gallery02@x1.png 1x, ../dist/img/gallery02@x2.png 2x, ../dist/img/gallery02@x3.png 3x " alt="red peppers")
+                                +picture("gallery02","png","red peppers").gallery__img
                     .col-lg-4.d-lg-block.d-xl-block.d-none
                         .row
                             .col-lg-12.mb-lg-4
                                 .gallery__img-wrapper 
-                                    img.gallery__img(src="../dist/img/gallery02@x1.png " srcset="../dist/img/gallery02@x1.png 1x, ../dist/img/gallery02@x2.png 2x, ../dist/img/gallery02@x3.png 3x " alt="red peppers")
+                                    +picture("gallery02","png","red peppers").gallery__img
                             .col-lg-12.mb-lg-4
                                 .gallery__img-wrapper 
-                                    img.gallery__img(src="../dist/img/gallery03@x1.png" srcset="../dist/img/gallery03@x1.png 1x, ../dist/img/gallery03@x2.png 2x, ../dist/img/gallery03@x3.png 3x" alt="peaches")
+                                    +picture("gallery03","png","peaches").gallery__img
                 .row
                     .col-md-6.d-md-block.d-lg-none.mb-md-4.mb-sm-4.mb-4
                         .gallery__img-wrapper 
-                            img.gallery__img(src="../dist/img/gallery03@x1.png" srcset="../dist/img/gallery03@x1.png 1x, ../dist/img/gallery03@x2.png 2x, ../dist/img/gallery03@x3.png 3x" alt="peaches")
+                            +picture("gallery03","png","peaches").gallery__img
                     .col-md-6.d-md-block.d-lg-none.d-none.mb-md-4.mb-sm-4.mb-4
                         .gallery__img-wrapper 
-                            img.gallery__img(src="../dist/img/gallery04@x1.png" srcset="../dist/img/gallery04@x1.png 1x, ../dist/img/gallery04@x2.png 2x, ../dist/img/gallery04@x3.png 3x" alt="two hands holding full beer glasses")
+                            +picture("gallery04","png","two hands holding full bear glasses").gallery__img
                 .row
                     .col-lg-6.d-md-none.d-lg-block.mb-sm-4.mb-4
                         .gallery__img-wrapper 
-                            img.gallery__img(src="../dist/img/gallery04@x1.png" srcset="../dist/img/gallery04@x1.png 1x, ../dist/img/gallery04@x2.png 2x, ../dist/img/gallery04@x3.png 3x" alt="two hands holding full beer glasses")
+                            +picture("gallery04","png","two hands holding full bear glasses").gallery__img
                     .col-lg-6.col-md-6
                         .gallery__img-wrapper 
-                            img.gallery__img(src="../dist/img/gallery05@x1.png" srcset="../dist/img/gallery05@x1.png 1x, ../dist/img/gallery05@x2.png 2x, ../dist/img/gallery05@x3.png 3x" alt="wine poured from a bottle into a glass")
+                            +picture("gallery05","png","wine poured from a bottle into a glass").gallery__img
             .gallery__bottom                
                 .row
                     .col-12.d-flex.justify-content-center
