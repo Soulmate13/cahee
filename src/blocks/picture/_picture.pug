@@ -1,5 +1,5 @@
 mixin picture(name, imageType, alt)
-    picture.lazy&attributes(attributes)
+    picture&attributes(attributes)
         data-src(srcset=`./webp/${name}@x1.webp 1x, ./webp/${name}@x2.webp 2x, ./webp/${name}@x3.webp 3x` type="image/webp")
         data-src(srcset=`./img/${name}@x1.${imageType} 1x, ./img/${name}@x2.${imageType} 2x, ./img/${name}@x2.${imageType} 3x` type=`image/${imageType}`)
-        img.lazy(data-src=`./img/${name}@x1.${imageType}`, alt=alt)
+        img.lazyload(data-src=`./img/${name}@x1.${imageType}`, alt=alt)
