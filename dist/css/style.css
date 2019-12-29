@@ -4818,5 +4818,9 @@ body {
   .gallery__img {
     max-width: 100%;
     max-height: 100%; }
+    .gallery__img--small {
+      max-width: 390px; }
+  .gallery img {
+    max-width: 100%; }
 
 /*# sourceMappingURL=style.css.map */
