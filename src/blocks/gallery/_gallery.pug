@@ -11,7 +11,10 @@ mixin gallery
                 .row
                     .col-lg-8.col-md-6.mb-md-4.mb-sm-4.mb-4
                             .gallery__img-wrapper 
-                                img.gallery__img(src="../dist/img/gallery01@x1.png", alt="pork on a plate")
+                                picture.gallery__img.lazy
+                                    data-src(srcset="./webp/gallery01@x1.webp" type="image/webp")
+                                    data-src(srcset="./img/gallery01@x1.png" type="image/png")
+                                    img(class="lazy" data-src="./img/gallery01@x1.png", alt="pork on a plate")
                     .col-md-6.d-md-block.d-lg-none.mb-md-4.mb-sm-4.mb-4
                             .gallery__img-wrapper
                                 img.gallery__img(src="../dist/img/gallery02@x1.png", alt="red peppers")

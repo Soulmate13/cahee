@@ -3855,7 +3855,6 @@ body {
   max-width: 1200px; }
 
 .contact__main {
-  background-image: url(../../dist/img/contact@x1.png);
   background-repeat: no-repeat;
   background-position: top;
   -webkit-background-size: cover;
@@ -3921,6 +3920,12 @@ body {
       font-size: 16px;
       padding: 10px 10px;
       margin-bottom: 23px; } }
+
+.no-webp .contact__main {
+  background-image: url(../img/contact@x1.png); }
+
+.webp .contact__main {
+  background-image: url(../webp/contact@x1.webp); }
 
 .contact-form__wrapper {
   display: -webkit-box;
