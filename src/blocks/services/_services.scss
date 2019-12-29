@@ -1,16 +1,7 @@
 .services {
     background-position: 75% 39%;
     background-repeat: no-repeat;
-    background-image: url(../../dist/img/services@x1.png);
     background-color: #70bfff;
-
-    @media screen and (min-resolution: 2dppx) {
-        background-image: url(../../dist/img/services@x2.png);
-    }
-
-    @media screen and (min-resolution: 3dppx) {
-        background-image: url(../../dist/img/services@x3.png);
-    }
 
     @media screen and (max-width: 1499px) {
         background-position: 86% 39%;
@@ -83,4 +74,12 @@
             margin-left: 26px
         }
     }
+}
+
+.no-webp .services {
+    background-image: url(..img/services@x1.png);
+}
+
+.webp .services {
+    background-image: url(../webp/services@x1.webp);
 }

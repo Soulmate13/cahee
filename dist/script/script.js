@@ -1,3 +1,3 @@
-$(function() {
-    $('.lazy').Lazy();
+$(function ($) {
+    $(".lazy").Lazy();
 });
