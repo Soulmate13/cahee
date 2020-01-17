@@ -18,10 +18,6 @@
             background-position: 89% 85%
         }
 
-        @media screen and (max-width: 575px) {
-            background-image: none;
-        }
-
     &__wrapper {
         padding-top: 50px;
 
@@ -83,8 +79,14 @@
 
 .no-webp .home {
     background-image: url(..img/header@x1.png);
+    @media screen and (max-width: 575px) {
+        background-image: none;
+    }
 }
 
 .webp .home {
     background-image: url(../webp/header@x1.webp);
+    @media screen and (max-width: 575px) {
+        background-image: none;
+    }
 }

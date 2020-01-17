@@ -17,11 +17,6 @@
         background-size: 50%;
         background-position: 50% 96%;
     }
-
-    @media screen and (max-width: 575px) {
-        background-image: none;
-    
-    }
     
     &__wrapper {
         padding-top: 140px;
@@ -124,8 +119,16 @@
 
 .no-webp .subscribe {
     background-image: url(..img/subscribe@x1.png);
+
+    @media screen and (max-width: 575px) {
+        background-image: none;
+    }
 }
 
 .webp .subscribe {
     background-image: url(../webp/subscribe@x1.webp);
+
+    @media screen and (max-width: 575px) {
+        background-image: none;
+    }
 }

@@ -9,3 +9,4 @@
   * Bootstrap
   * Reset.css
   * Prepros
+  * Responsive images

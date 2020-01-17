@@ -5,7 +5,6 @@
 
     @media screen and (max-width: 1499px) {
         background-position: 86% 39%;
-        
     }
 
     @media screen and (max-width: 1199px) {
@@ -78,8 +77,16 @@
 
 .no-webp .services {
     background-image: url(..img/services@x1.png);
+
+    @media screen and (max-width: 575px) {
+        background-image: none;
+    }
 }
 
 .webp .services {
     background-image: url(../webp/services@x1.webp);
+    
+    @media screen and (max-width: 575px) {
+        background-image: none;
+    }
 }

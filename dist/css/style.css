@@ -4095,7 +4095,7 @@ body {
       -moz-background-size: 45%;
       -o-background-size: 45%;
       background-size: 45%;
-      background-position: 50% 109%; } }
+      background-position: 50% 100%; } }
   @media screen and (max-width: 765px) {
     .about {
       -webkit-background-size: 45% 45%;
@@ -4144,9 +4144,15 @@ body {
 
 .no-webp .about {
   background-image: url(../img/about@x1.png); }
+  @media screen and (max-width: 575px) {
+    .no-webp .about {
+      background-image: none; } }
 
 .webp .about {
   background-image: url(../webp/about@x1.webp); }
+  @media screen and (max-width: 575px) {
+    .webp .about {
+      background-image: none; } }
 
 .blog {
   background-color: #b07cf7;
@@ -4396,9 +4402,6 @@ body {
       -o-background-size: 41%;
       background-size: 41%;
       background-position: 89% 85%; } }
-  @media screen and (max-width: 575px) {
-    .home {
-      background-image: none; } }
   .home__wrapper {
     padding-top: 50px; }
     @media screen and (max-width: 765px) {
@@ -4439,9 +4442,15 @@ body {
 
 .no-webp .home {
   background-image: url(..img/header@x1.png); }
+  @media screen and (max-width: 575px) {
+    .no-webp .home {
+      background-image: none; } }
 
 .webp .home {
   background-image: url(../webp/header@x1.webp); }
+  @media screen and (max-width: 575px) {
+    .webp .home {
+      background-image: none; } }
 
 .nav__wrapper {
   padding-bottom: 50px;
@@ -4586,9 +4595,6 @@ body {
       -o-background-size: 50%;
       background-size: 50%;
       background-position: 50% 96%; } }
-  @media screen and (max-width: 575px) {
-    .subscribe {
-      background-image: none; } }
   .subscribe__wrapper {
     padding-top: 140px;
     padding-bottom: 161px; }
@@ -4665,9 +4671,15 @@ body {
 
 .no-webp .subscribe {
   background-image: url(..img/subscribe@x1.png); }
+  @media screen and (max-width: 575px) {
+    .no-webp .subscribe {
+      background-image: none; } }
 
 .webp .subscribe {
   background-image: url(../webp/subscribe@x1.webp); }
+  @media screen and (max-width: 575px) {
+    .webp .subscribe {
+      background-image: none; } }
 
 .services {
   background-position: 75% 39%;
@@ -4739,9 +4751,15 @@ body {
 
 .no-webp .services {
   background-image: url(..img/services@x1.png); }
+  @media screen and (max-width: 575px) {
+    .no-webp .services {
+      background-image: none; } }
 
 .webp .services {
   background-image: url(../webp/services@x1.webp); }
+  @media screen and (max-width: 575px) {
+    .webp .services {
+      background-image: none; } }
 
 .panel-column__wrapper {
   margin-left: 32px; }
