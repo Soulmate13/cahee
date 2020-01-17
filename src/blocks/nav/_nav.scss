@@ -29,20 +29,20 @@
     }
 
     &__checkbox {
-        display: none;
-
-        &:checked+.nav__burger>.fa-hamburger {
-            display: none;    
-        }
-
-        &:checked+.nav__burger>.fa-times {
-            display: block;
-        }   
+        display: none; 
     }
 
     &__checkbox:checked+&__burger+&__list {
         max-height: 400px;
     }
+
+    &__checkbox:checked + &__burger>.fa-hamburger {
+        display: none;
+    }
+    &__checkbox:checked + &__burger>.fa-times {
+        display: block;
+    }
+
 
     &__burger {
         width: 48px;

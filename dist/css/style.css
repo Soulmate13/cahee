@@ -4479,13 +4479,15 @@ body {
 
 .nav__checkbox {
   display: none; }
-  .nav__checkbox:checked + .nav__burger > .fa-hamburger {
-    display: none; }
-  .nav__checkbox:checked + .nav__burger > .fa-times {
-    display: block; }
 
 .nav__checkbox:checked + .nav__burger + .nav__list {
   max-height: 400px; }
+
+.nav__checkbox:checked + .nav__burger > .fa-hamburger {
+  display: none; }
+
+.nav__checkbox:checked + .nav__burger > .fa-times {
+  display: block; }
 
 .nav__burger {
   width: 48px;
