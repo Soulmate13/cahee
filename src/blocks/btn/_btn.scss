@@ -9,9 +9,9 @@
 
     &--blog {
         background-color: #f72b3b;
-        padding: 18px 45px;
+        padding: 17px 43px;
         margin-bottom: 0;
-        margin-left: -3px;
+        margin-left: 1px;
 
         @media screen and (max-width: 1199px) {
             margin-left: 0;
@@ -26,7 +26,6 @@
     &--home {
         background-color: #ff6033;
         padding: 16px 26px;
-        margin-left: -3px;
     
         &:hover {
             background-color: white;
