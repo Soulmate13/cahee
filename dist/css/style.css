@@ -4439,7 +4439,7 @@ body {
     margin-left: -3px; }
 
 .no-webp .home {
-  background-image: url(..img/header@x1.png); }
+  background-image: url(../img/header@x1.png); }
   @media screen and (max-width: 575px) {
     .no-webp .home {
       background-image: none; } }
@@ -4670,7 +4670,7 @@ body {
     font-family: "Raleway"; }
 
 .no-webp .subscribe {
-  background-image: url(..img/subscribe@x1.png); }
+  background-image: url(../img/subscribe@x1.png); }
   @media screen and (max-width: 575px) {
     .no-webp .subscribe {
       background-image: none; } }
@@ -4750,7 +4750,7 @@ body {
       margin-left: 26px; }
 
 .no-webp .services {
-  background-image: url(..img/services@x1.png); }
+  background-image: url(../img/services@x1.png); }
   @media screen and (max-width: 575px) {
     .no-webp .services {
       background-image: none; } }
