@@ -5,7 +5,7 @@
 
 ## Technologies used:
   * Pug.js
-  * SCSS/SASS
+  * SCSS
   * Bootstrap
   * Reset.css
   * Prepros
